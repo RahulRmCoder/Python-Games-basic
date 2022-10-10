@@ -24,8 +24,8 @@ print(b,' final score',b_score)
 diff_1 = a_score - b_score
 diff_2 = b_score - a_score
 if a_score>b_score:
-    print(a," won the match by",diff_1,"points $$$")
+    print(a," won the game by",diff_1,"points $$$")
 elif a_score<b_score:
-    print(b," won the match by",diff_2,"points $$$")
+    print(b," won the game by",diff_2,"points $$$")
 else:
     print("Match tied")
